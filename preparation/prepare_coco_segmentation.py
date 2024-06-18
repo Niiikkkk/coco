@@ -5,14 +5,13 @@ import numpy as np
 sys.path.append(os.path.dirname(sys.path[0]))
 
 from PIL import Image
-from config import cs_coco_roots
 from src.dataset.coco import COCO
 from pycocotools.coco import COCO as coco_tools
 
 
 def main():
     start = time.time()
-    root = cs_coco_roots.coco_root
+    root = "/home/Datasets/COCO/2017"
     split = "train"
     year = 2017
     id_in = COCO.train_id_in
