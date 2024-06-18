@@ -19,7 +19,7 @@ class cs_coco_roots:
     model_name  = MODEL
     init_ckpt   = os.path.join("/home/chan/io/cityscapes/weights/", model_name + ".pth")
     cs_root     = "/home/datasets/cityscapes/"
-    coco_root   = "/home/datasets/COCO/2017"
+    coco_root   = "/home/Datasets/COCO/2017"
     io_root     = IO + "meta_ood_" + model_name
     weights_dir = os.path.join(io_root, "weights/")
 
