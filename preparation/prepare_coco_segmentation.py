@@ -11,7 +11,7 @@ from pycocotools.coco import COCO as coco_tools
 
 def main():
     start = time.time()
-    root = "/home/Datasets/coco/"
+    root = "/home/Datasets/coco"
     split = "train"
     year = 2017
     id_in = COCO.train_id_in
